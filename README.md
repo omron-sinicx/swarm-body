@@ -60,7 +60,7 @@ If you prefer purchasing pre-assembled robots instead of assembling them yoursel
 
 The software materials of this project are under an MIT license.
 
-The hardware materials of this project are under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+The hardware materials of this project are under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 
 ## Paper
