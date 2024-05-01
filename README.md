@@ -1,11 +1,14 @@
-# hoge: a miniature-sized wheeled robot for swarm robotics research
+# maru: a miniature-sized wheeled robot for swarm robotics research
+
+![](./images/maru_top.png)
+
+"maru" (= *miniature assemblage adaptive robot unit*) is a custom-made, miniature-sized, two-wheeled robot designed specifically for tabletop swarm robotics research.
+This platform enables researchers and hobbyists to explore the dynamics of swarm robotics in a controlled, tabletop environment.
 
 ![](./images/teaser.jpg)
 
-"hoge" is a custom-made, miniature-sized, two-wheeled robot designed specifically for tabletop swarm robotics research.
-This platform enables researchers and hobbyists to explore the dynamics of swarm robotics in a controlled, tabletop environment.
 
-This repository serves as a comprehensive resource for assembling and operating hoge, providing detailed documentation and files, including:
+This repository serves as a comprehensive resource for assembling and operating maru, providing detailed documentation and files, including:
 
 - 3D models of the robot and its cradle (a combined communication and charging module),
 - Circuit schematics to guide the electronic assembly,
@@ -14,10 +17,10 @@ This repository serves as a comprehensive resource for assembling and operating 
 - APIs and sample codes to help you get started with programming the robot for various tasks and behaviors.
 
 This project draws inspiration from [Zooids](https://github.com/ShapeLab/SwarmUI), an open-source swarm robot platform.
-Similar to Zooids, hoge employs projection-based position tracking; however both hoge's hardware and software are entirely new designs, another platform for swarm robotics research in HCI.
+Similar to Zooids, maru employs projection-based position tracking; however both maru's hardware and software are entirely new designs, another platform for swarm robotics research in HCI.
 
 ## Hardware
-![](./images/size.png)
+<!-- ![](./images/size.png) -->
 ![](./images/robot_exploded.png)
 
 The hardware design is shown above.
@@ -29,6 +32,7 @@ Magnets can be attached to the bottom of the robot, and the robot can be run on 
 
 A detailed description of the hardware design and specifications is available [here](https://shigeodayo.notion.site/Hardware-Manual-8442a3ade0ba457dba1eb5f8b898ae2d?pvs=4).
 
+![](./images/exploded_real_naname.jpg)
 
 ## Software
 
@@ -49,6 +53,8 @@ Then, the robot calculated its orientation from the positions of two photodiodes
 
 For instructions on the projector tracking system, see https://github.com/ShapeLab/SwarmUI/tree/master/Hardware/Projector%20Tracking%20Setup
 
+![](./images/maru_cradle.jpg)
+
 
 ## Note
 
@@ -64,23 +70,13 @@ The hardware materials of this project are under a [Creative Commons Attribution
 
 
 ## Paper
-Hoge was first introduced and used in the following paper:
+This robot was first introduced and used in the following paper:
 
 
 Sosuke Ichihashi, So Kuroki, Mai Nishimura, Kazumi Kasaura, Takefumi Hiraki, Kazutoshi Tanaka, and Shigeo Yoshida. 2024. Swarm Body: Embodied Swarm Robots. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI ’24), May 11–16, 2024, Honolulu, HI, USA. ACM, New York, NY, USA, 19 pages. https://doi.org/10.1145/3613904.3642870
 
 
 ```
-# arxiv version
-@article{2402.15830,
-  Author = {Sosuke Ichihashi and So Kuroki and Mai Nishimura and Kazumi Kasaura and Takefumi Hiraki and Kazutoshi Tanaka and Shigeo Yoshida},
-  Title = {Swarm Body: Embodied Swarm Robots},
-  Year = {2024},
-  Eprint = {arXiv:2402.15830},
-  Doi = {10.1145/3613904.3642870},
-}
-
-# CHI'24 version
 @inproceedings{ichihashi2024swarm,
   author = {Ichihashi, Sosuke and Kuroki, So and Nishimura, Mai and Kasaura, Kazumi and Hiraki, Takefumi and Tanaka, Kazutoshi and Yoshida, Shigeo},
   title = {Swarm Body: Embodied Swarm Robots},
