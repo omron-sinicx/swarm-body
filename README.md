@@ -10,11 +10,11 @@ This platform enables researchers and hobbyists to explore the dynamics of swarm
 
 This repository serves as a comprehensive resource for assembling and operating maru, providing detailed documentation and files, including:
 
-- 3D models of the robot and its cradle (a combined communication and charging module),
-- Circuit schematics to guide the electronic assembly,
-- Gerber files for PCB manufacturing,
-- Firmware for both the robot and the cradle, distributed in binary format (Note: There are currently no plans to release the source code),
-- APIs and sample codes to help you get started with programming the robot for various tasks and behaviors.
+- `hardware/3Dmodel` 3D models of the robot and its cradle (a combined communication and charging module),
+- `hardware/circuit/schematic` Circuit schematics to guide the electronic assembly,
+- `hardware/circuit/gerber` Gerber files for PCB manufacturing,
+- `software/firmware` Firmware for both the robot and the cradle, distributed in binary format (Note: There are currently no plans to release the source code),
+- `software/control` APIs and sample codes to help you get started with programming the robot for various tasks and behaviors (C# and Python).
 
 This project draws inspiration from [Zooids](https://github.com/ShapeLab/SwarmUI), an open-source swarm robot platform.
 Similar to Zooids, maru employs projection-based position tracking; however both maru's hardware and software are entirely new designs, another platform for swarm robotics research in HCI.
