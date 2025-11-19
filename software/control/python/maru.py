@@ -287,7 +287,7 @@ class   osx001Driver():
                         roll = roll - 65536
 
                     # print({'id':id, 'x':x_position, 'y':y_position, 'deg' : degree, 'v' : voltage, 'yaw' : yaw, 'pitch' : pitch, 'roll' : roll})
-                    data_dict[id] = [x_position, y_position]
+                    data_dict[id] = [x_position, y_position, degree, voltage, yaw, pitch, roll]
                 elif self.commandInstruction == 0x28:
                     ids = []
                     for i in range(0, self.commandLength - 2):
