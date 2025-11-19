@@ -5,7 +5,7 @@ from serial.tools import list_ports
 
 
 def flush(driver):
-    driver.flushBuffer()
+    driver.flush_buffer()
     print("flush!!")
 
 def main():

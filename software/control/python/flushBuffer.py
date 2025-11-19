@@ -19,7 +19,7 @@ def main():
     # Initialization
     driver = osx001Driver(args[1])
 
-    driver.flushBuffer()
+    driver.flush_buffer()
 
 if __name__ == '__main__':
     main()
